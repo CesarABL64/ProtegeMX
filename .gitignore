@@ -1,0 +1,54 @@
+# =============================================
+# ProyectoVecinal — .gitignore
+# =============================================
+
+# Secrets (nunca subir credenciales reales)
+.env
+.env.local
+.env.*.local
+
+# =============================================
+# Backend (Spring Boot / Maven)
+# =============================================
+backend/target/
+backend/.mvn/
+backend/mvnw
+backend/mvnw.cmd
+backend/*.iml
+
+# =============================================
+# Frontend (Angular / Node)
+# =============================================
+frontend/node_modules/
+frontend/dist/
+frontend/.angular/
+frontend/.vscode/
+
+# =============================================
+# Uploads / Archivos generados en runtime
+# =============================================
+uploads/
+*.tmp
+*.log
+
+# =============================================
+# IDEs y editores
+# =============================================
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# =============================================
+# Sistema operativo
+# =============================================
+.DS_Store
+Thumbs.db
+
+# =============================================
+# Otros
+# =============================================
+*.swp
+*.swo
+*~
